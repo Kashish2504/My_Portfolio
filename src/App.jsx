@@ -2,6 +2,7 @@ import Home from "./component/Home.jsx"
 import About from "./component/About.jsx"
 import Nav from "./component/navbar.jsx"
 import Skills from "./component/Skills.jsx"
+import Contact from "./component/Contact.jsx"
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
     <About/></section>
     <section id="Skills">
       <Skills />
+    </section>
+    <section id="Contact">
+      <Contact/>
     </section>
     
     </>

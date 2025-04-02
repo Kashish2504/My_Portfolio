@@ -5,14 +5,21 @@ import { FaReact } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { FaJava } from "react-icons/fa6";
+import {FaCuttlefish } from "react-icons/fa6";
 import Circle from "./UI/Circle";
 
 const Skills = () => {
   return (
     <>
+    
       <div className="bg-white w-screen h-22"></div>
-      <div className="flex flex-wrap justify-center items-center h-screen bg-emerald-300 gap-5 ">
+      <div className="justify-center items-center h-110 bg-emerald-300">
+        
+        <h1 className="font-bold text-5xl pt-9 pl-130">My Skills</h1>
+      
+      <div className="flex flex-wrap mt-30 gap-5 pl-10">
+        
+
         <Circle title="HTML" color="text-orange-600" text="text-xl">
           <FaHtml5 className={`text-orange-600 text-7xl`} />
         </Circle>
@@ -33,18 +40,19 @@ const Skills = () => {
               <FaReact className={`text-sky-400 text-7xl`} />
         </Circle>
         
-        <Circle title="Python" color="text-sky-400" text="text-xl">
+        <Circle title="Python" color="text-blue-700" text="text-xl">
               <FaPython className={`text-blue-700 text-7xl`} />
         </Circle>
 
-        <Circle title="React" color="text-sky-400" text="text-5xl">
+        <Circle title="Next.js" color="text-yellow-400" text="text-xl">
             <RiNextjsFill className={`text-yellow-400 text-9xl`} />
         </Circle>
 
-        <Circle title="React" color="text-sky-400" text="text-5xl">
-              <FaReact className="text-sky-400 text-9xl" />
+        <Circle title="C" color="text-blue-400" text="text-3xl">
+            <FaCuttlefish className={`text-blue-400 text-7xl` }/>
         </Circle>
 
+      </div>
       </div>
     </>
   );
