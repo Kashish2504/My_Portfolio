@@ -1,11 +1,11 @@
 import Image from "./Image";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithubAlt } from "react-icons/fa";
+import Icons from "./Icons";
+
 const Home = () => {
   return (
     <>
-      <div className="flex items-center h-screen ">
-        <h2 className="text-black text-2xl ml-4 mt-12">
+      <div className="flex items-center h-screen">
+        <h2 className="text-black text-2xl ml-4 mt-20">
           Hello, I'm
 
           <h1 className="text-6xl font-bold pt-2 ">Kashish Omar👩🏻‍💻</h1>
@@ -20,21 +20,14 @@ const Home = () => {
             of code at a time!
           </h3>
           
-          <a href="https://www.linkedin.com/in/kashish-omar-0603702a2/">
-            <div className="rounded-full w-10 h-10 p-1.5 text-[#0A66C2] border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white mt-5 border-2 overflow-auto">
-              <FaLinkedinIn />
-            </div>
-          </a>
+          <Icons/>
+
           <button className="mt-5 bg-rose-400 text-white w-2/12 h-10 rounded-full hover:bg-rose-500">
             Hire me
           </button>
         </h2>
 
-        <a href="https://github.com/Kashish2504">
-          <div className="rounded-full w-10 h-10 p-1.5 text-[#0A66C2] border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white mt-5 border-2 overflow-auto">
-            <FaGithubAlt />
-          </div>
-        </a>
+        
         <Image />
       </div>
     </>
