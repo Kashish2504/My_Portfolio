@@ -67,8 +67,7 @@ const Certificate = () => {
         🎓 My Certifications
           </h2>
         <p className="text-[#6D4C41] mb-10">
-          I design and develop services for customers of all sizes, specializing
-          in creating stylish, modern websites
+        Showcasing my learning journey through certifications.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10">

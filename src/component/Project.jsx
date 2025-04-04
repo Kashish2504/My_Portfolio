@@ -102,7 +102,7 @@ const Project = () => {
       <section className="bg-[#f8f5f2] text-[#4B3621] py-16 text-center relative">
         <h2 className="text-4xl font-bold mb-4">What I Do</h2>
         <p className="text-[#6D4C41] mb-10">
-          Showcasing my learning journey through certifications.
+        Designing with heart, developing with purpose—turning ideas into delightful digital experiences.
         </p>
 
         {/* Vertical Timeline Line */}

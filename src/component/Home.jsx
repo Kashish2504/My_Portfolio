@@ -1,11 +1,11 @@
-import Image from "./Image";
+import Image1 from "./Image1";
 import Icons from "./Icons";
 
 const Home = () => {
   return (
     <>
       <div className="flex items-center h-screen">
-        <h2 className="text-amber-950 text-2xl ml-4 mt-20">
+        <h2 className="text-amber-950 text-2xl ml-9 mt-20">
           Hello, I'm
 
           <h1 className="text-6xl font-bold pt-2 ">Kashish Omar 👩🏻‍💻</h1>
@@ -28,7 +28,7 @@ const Home = () => {
         </h2>
 
         
-        <Image />
+        <Image1 />
       </div>
     </>
   );

@@ -15,9 +15,9 @@ const Skills = () => {
       <div className="bg-white w-screen h-22"></div>
       <div className="justify-center items-center h-110 bg-amber-400">
         
-        <h1 className="font-bold text-5xl pt-9 pl-130 text-[#f8f5f2]">My Skills</h1>
+        <h1 className="font-bold text-5xl pt-9 mx-auto text-[#f8f5f2] myunderline">My Skills</h1>
 
-        <p className="text-[#f8f5f2] pl-95 text-xl pt-5 ">Always learning, always growing – one skill at a time! 🚀💡"</p>
+        <p className="text-[#f8f5f2] pl-95 text-xl pt-5 ">Always learning, always growing - one skill at a time! 🚀💡"</p>
       
       <div className="flex flex-wrap pt-20 gap-5 pl-10">
         

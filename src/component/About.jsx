@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex justify-center items-center gap-5 bg-[#3c2a21] text-3xl h-[80vh]">
       <Image2 />
       <div className="w-[60%] mr-5">
-        <h1 className="font-bold pl-70 pt-2 text-amber-500">About me</h1>
+        <h1 className="font-bold ml-70 pt-2 text-amber-500 myunderline">About me</h1>
         <p className="text-justify font-semibold text-xl mt-5 mr-5 text-white">
           I'm a passionate developer who thrives on solving problems, creating
           seamless digital experiences, and pushing the boundaries of
