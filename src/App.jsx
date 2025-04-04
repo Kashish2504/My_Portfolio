@@ -3,12 +3,15 @@ import About from "./component/About.jsx"
 import Nav from "./component/navbar.jsx"
 import Skills from "./component/Skills.jsx"
 import Contact from "./component/Contact.jsx"
+import Project from "./component/Project.jsx"
+import Certificate  from "./component/Certificates.jsx"
 
 function App() {
 
 
   return (
     <>
+    <div >
     <Nav />
     <section id="Home">
     <Home/></section>
@@ -17,10 +20,16 @@ function App() {
     <section id="Skills">
       <Skills />
     </section>
+    <section id="Project">
+      <Project />
+    </section>
+    <section id="Certificate">
+      <Certificate/>
+    </section>
     <section id="Contact">
       <Contact/>
     </section>
-    
+    </div>
     </>
   )
 }

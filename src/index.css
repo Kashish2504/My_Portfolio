@@ -1,1 +1,18 @@
 @import "tailwindcss";
+html,
+body{
+    
+    scroll-behavior: smooth;
+}
+#HomeImage{
+    position:relative;
+    animation: animate 1s linear infinite alternate;
+}
+@keyframes animate {
+    0%{
+        top:-10px;
+    }
+    100%{
+        top:10px;
+    }
+}
