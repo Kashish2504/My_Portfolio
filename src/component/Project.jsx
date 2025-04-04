@@ -3,7 +3,7 @@ import { FaCheckCircle, FaTimes } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Athena - An AI Assistant",
+    title: " Athena – An AI Assistant 🤖",
     developedBy: "Kashish Omar",
     year: "2023-2024",
     description:
@@ -100,7 +100,7 @@ const Project = () => {
     <>
       <div className="bg-white w-screen h-16"></div>
       <section className="bg-[#f8f5f2] text-[#4B3621] py-16 text-center relative">
-        <h2 className="text-4xl font-bold mb-4">What I Do</h2>
+        <h2 className="text-4xl font-bold mb-4">Projects 💻</h2>
         <p className="text-[#6D4C41] mb-10">
         Designing with heart, developing with purpose—turning ideas into delightful digital experiences.
         </p>
