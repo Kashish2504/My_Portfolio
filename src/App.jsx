@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import Home from "./component/Home.jsx"
 import About from "./component/About.jsx"
 import Nav from "./component/navbar.jsx"
