@@ -31,6 +31,7 @@ function App() {
       <Contact/>
     </section>
     </div>
+    <Analytics/>
     </>
   )
 }
